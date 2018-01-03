@@ -1,0 +1,38 @@
+{
+  "properties": [
+    {
+      "name": "spring.email.config.username",
+      "type": "java.lang.String",
+      "description": "用户名."
+  },
+    {
+      "name": "spring.email.config.password",
+      "type": "java.lang.String",
+      "description": "密码."
+    },
+    {
+      "name": "spring.email.config.host",
+      "type": "java.lang.String",
+      "description": "主机."
+    },
+    {
+      "name": "spring.email.config.port",
+      "type": "java.lang.Integer",
+      "description":" 端口."
+    },
+    {
+      "name": "spring.email.config.protocol",
+      "type": "java.lang.String",
+      "description":" 协议."
+    },
+    {
+      "name": "spring.email.config.debug",
+      "type": "java.lang.Boolean",
+      "description":" 是否开启debug."
+    },
+    {
+      "name": "spring.email.config.freemarker-path",
+      "type": "java.lang.String",
+      "description":" freemarker 路径前缀."
+    }
+] }
