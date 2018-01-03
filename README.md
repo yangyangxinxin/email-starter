@@ -5,20 +5,24 @@ spring boot 邮件快速配置
 
 ## 1. 下载email-service
 
-    ` git clone https://github.com/yangyangxinxin/email-service.git `
+```shell
+    git clone https://github.com/yangyangxinxin/email-service.git
+```
     
 ## 2. 安装
     
-    `mvn clean install -Dmaven.test.skip=true`
+```shell
+    mvn clean install -Dmaven.test.skip=true
+```
 
 ## 3. 依赖配置：
 
 ```xml
-        <dependency>
-			<groupId>com.luckysweetheart</groupId>
-			<artifactId>email-starter</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+    <dependency>
+        <groupId>com.luckysweetheart</groupId>
+        <artifactId>email-starter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
 ```
 
 ## 4. application.properties :
